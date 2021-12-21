@@ -503,7 +503,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-mobile {
-  background-image: url('/src/images/image-header-mobile.jpg');
+  background-image: url('../src/images/image-header-mobile.jpg');
 }
 
 .bg-cover {
@@ -616,6 +616,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
+  .md\:bg-desktop {
+    background-image: url('../src/images/image-header-desktop.jpg');
+  }
+
   .md\:p-16 {
     padding: 4rem;
   }
@@ -626,21 +630,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-\[12px\] {
-    font-size: 12px;
-  }
-
-  .md\:text-\[14px\] {
-    font-size: 14px;
-  }
-
-  .md\:text-\[13px\] {
-    font-size: 13px;
-  }
-
-  .md\:text-\[15px\] {
-    font-size: 15px;
   }
 }

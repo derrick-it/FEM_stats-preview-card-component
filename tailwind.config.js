@@ -17,8 +17,8 @@ module.exports = {
       secondary: ['Lexend Deca', 'sans-serif'],
     },
     backgroundImage: {
-      'mobile': "url('./src/images/image-header-mobile.jpg')",
-      'desktop': "url('./src/images/image-header-desktop.jpg')",
+      'mobile': "url('../src/images/image-header-mobile.jpg')",
+      'desktop': "url('../src/images/image-header-desktop.jpg')",
     },
     extend: {},
   },
